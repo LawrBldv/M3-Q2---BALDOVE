@@ -60,7 +60,7 @@ function text() {
   const texture = new THREE.TextureLoader().load("assets/textures/wooden.jpg");
 
   const floader = new FontLoader();
-  floader.load('../assets/fonts/helvetiker_bold.typeface.json', function(font) {
+  floader.load('assets/fonts/helvetiker_bold.typeface.json', function(font) {
     const textGeometry = new TextGeometry("Lawrenzo", {
       font: font,
       size: 15, 
